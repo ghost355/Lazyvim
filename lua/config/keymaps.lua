@@ -4,3 +4,7 @@
 
 -- Add Focus Neotree
 vim.keymap.set("n", "<leader>o", "<cmd>Neotree focus<cr>", { desc = "Focus Neotree" })
+
+vim.keymap.set("n", "<leader>um", function()
+  vim.cmd([[set invrelativenumber]])
+end, { desc = "Toggle Relative Number" })
