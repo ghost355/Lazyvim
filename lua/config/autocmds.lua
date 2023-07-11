@@ -2,6 +2,3 @@
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
 --
-vim.api.nvim_create_user_command("LuaSnipEdit", function()
-  require("luasnip.loaders").edit_snippet_files()
-end, { nargs = "*" })
